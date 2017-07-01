@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jared Hunter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/logo1.jpg">
+
+<!-- Bootstrap -->
+<link href ="css/bootstrap.min.css" rel="stylesheet">
+<link href ="css/index.css" rel="stylesheet">
+
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+<div class="container">
+        <div id="header">
+            <p>Jared Hunter</p>
+        </div>
+		
+		<div class="navBar">
+        <div id="menu">
+            <nav class="navbar navbar-default">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="./index.html">Home</a></li>
+					<li><a href="./resume.html">Resume</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+					<li><a href="./works.html">Works</a></li>
+					</ul>
+			</nav>
+		</div>	
+        </div>
+        <div id="content">
+           <p></p>
+       </div>
+        <div id="footer">
+            <p>This is the Footer</p>
+        </div>
+</div>
+</body>
+</html>

@@ -85,6 +85,14 @@ img.resize {
     margin-bottom: -31100px;
 }
 
+#resume-footer {
+	width: 100%;
+	background-color: white;
+    clear: both;
+	padding-bottom: 32000px;
+    margin-bottom: -32000px;
+}
+
 #nav {
   background-color: white;
   border: 1px solid #A76358;

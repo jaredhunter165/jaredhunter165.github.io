@@ -11,6 +11,11 @@ body {
 #fixedHead {
 	position: fixed;
 	width: 75%;
+	left: 0;
+	right: 0;
+	text-align:center;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
 }
 
 p {
@@ -81,8 +86,8 @@ img.resize {
     width: 100%;
 	background-color: white;
     clear: both;
-	padding-bottom: 32000px;
-    margin-bottom: -31100px;
+	padding-bottom: 32000em;
+    margin-bottom: -31920em;
 }
 
 #resume-footer {
@@ -222,5 +227,3 @@ table, th {
   opacity: 1;
   text-align: center;
 }
-
-

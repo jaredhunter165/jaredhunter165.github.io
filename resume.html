@@ -9,13 +9,20 @@
 <link href ="css/bootstrap.min.css" rel="stylesheet">
 <link href ="css/index.css" rel="stylesheet">
 
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+
 <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
+
+
 <body>
-<div class="container" align="center">
-        <div id="header" align="center">
-            <p>Jared Hunter</p>
-        </div>
+<div id="wrapper" align="center">
+	<div id=fixedHead align="center">
+        <div id="header"> 
+            <p id="header">Jared Hunter</p>
+        </div> 
 		
 		<div id="navBox">
 		<div class="navBar">
@@ -29,14 +36,15 @@
 					</ul>
 			</nav>
 		</div>	</div>
-        </div>
+        </div> 
+		
+		</div>
         <div id="content">
 		<div id="res">
-           <iframe id="resContent" src="./images/Hunter_Jared_Resume.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
-       </div>
-	   </div>
-        <div id="resume-footer">
-        </div>
-</div>
+           <iframe id="resContent" src="./images/Hunter_Jared_Resume.pdf" frameborder="0"></iframe>
+       </div> </div>
+        <div id="footer">
+        </div> </div>
+ </div>
 </body>
 </html>

@@ -8,14 +8,24 @@ body {
 	height: 100%;
 }
 
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 75%;
+	height: ;
+	box-shadow: 0px 0px 15px #bdbdbd;
+}
+
 #fixedHead {
 	position: fixed;
-	width: 75%;
+	width: inherit;
+	top: 0;
 	left: 0;
 	right: 0;
 	text-align:center;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
+	background: #FFFFFF;
 }
 
 p {
@@ -38,7 +48,7 @@ p.body {
 	font-family: "Lucida Sans Unicode", sans-sefif;
 	font-size: 45px;
 	text-align: center;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
 	background-color: white;
 }
@@ -46,7 +56,9 @@ p.body {
 #navBox {
 	width: 100%;
 	background-color: white;
-	height: 100%;
+	min-height: 100%;
+	padding-top: auto;
+	border-bottom: thick double #ff0000;
 	
 }
 
@@ -62,7 +74,6 @@ p.body {
     float: left;
     background: #FFFFFF;
     width: 100%;
-	border-top: thick double #ff0000;
 	height: 100%;
 }
 
@@ -79,15 +90,19 @@ img.resize {
 	display: block;
     margin: auto;
     width: 62.6%;
-	padding-top: 40px;
+	padding-top: 15em;
+}
+
+#resContent {
+	height: 50em;
+	width: 100%;
 }
 
 #footer {
     width: 100%;
 	background-color: white;
-    clear: both;
-	padding-bottom: 32000em;
-    margin-bottom: -31920em;
+	padding-bottom: 100em;
+    margin-bottom: -80em;
 }
 
 #resume-footer {
@@ -114,12 +129,6 @@ ul li {
 }
 ul li a {
   color: white;
-}
-
-.container {
-	overflow: hidden;
-    min-height: 100%;
-    min-width: 75%;
 }
 
 .navBar {
